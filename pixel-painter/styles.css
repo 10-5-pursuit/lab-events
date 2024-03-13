@@ -23,9 +23,9 @@ header h1 {
 
 #canvas-palette-wrapper {
   margin-left: 10%;
-  display: flex; 
+  display: grid; 
   justify-content: center; 
-  align-items: start; 
+  align-items: start;
 }
 
 #canvas {
@@ -33,7 +33,7 @@ header h1 {
   display: grid;
   grid-template-columns: repeat(10, 50px); 
   height: 400px;
-  margin-right: 20px; 
+  margin-left: -135px; 
 }
 
 .cell {
@@ -46,19 +46,19 @@ header h1 {
 
 #current-color {
   border: 2px solid #393e41;
-  display: block;
   height: 50px;
-  margin: 25px auto;
+  margin-left: 50px;
+  margin: 10px auto;
   width: 50px;
 }
 
 #palette {
-  display: flex;
-  flex-direction: column; 
-  justify-content: start; 
-  flex-wrap: wrap; 
-  height: 400px; 
-  align-content: start; 
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  height: 60px; 
+  width: 1px;
+  margin-left: -175px;
+  margin-top: 15px;
 }
 
 .color {
@@ -70,13 +70,13 @@ header h1 {
 }
 
 #wrapper {
-  min-height: 100vh; 
+  min-height: 100vh;
 }
 
 footer {
   position: relative;
   bottom: 10%;
-  
+
 }
 
 nav {
@@ -89,7 +89,7 @@ a {
   text-decoration: none;
   color: rgb(95, 97, 214);
   font-size: 2em;
-  
+
 }
 
 a:hover {
