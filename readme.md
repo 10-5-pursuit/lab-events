@@ -22,9 +22,9 @@ There are two parts to this lab: Pixel Painter and Tic Tac Toe.
 
 You will need to complete the following tasks. If you're unclear about any of the instructions below, reach out to your instructor.
 
-- [ ] When a color is clicked in the `#palette`, the `#current-color` element should have its background changed to that color. For example, if you click the green circle in the `#palette`, the `#current-color` element's background should change to be green.
+- [x] When a color is clicked in the `#palette`, the `#current-color` element should have its background changed to that color. For example, if you click the green circle in the `#palette`, the `#current-color` element's background should change to be green.
 
-- [ ] When you click on a `.cell`, its background should change to match the background of `#current-color`. *Note: The cells do not appear on the canvas when launching this lab. It's your job to add new cells.* 
+- [x] When you click on a `.cell`, its background should change to match the background of `#current-color`. *Note: The cells do not appear on the canvas when launching this lab. It's your job to add new cells.* 
 
 ![pixel painter demo](./assets/ezgif.com-pixel-painter.gif)
 
@@ -36,10 +36,10 @@ Remember that you can access an elements style declarations by accessing the `.s
 
 Attempt to implement _at least one_ of the following features:
 
-- [ ] Increase the number of cells without increasing the width or height of the `#canvas` element.
-- [ ] Change the event listener so that instead of clicking to fill a color, you hold down your mouse.
-- [ ] Create a button that, when clicked, resets all cells so that they all have a background of white.
-- [ ] Create a button that, when clicked, changes all of the cells so that they match the `#current-color` element's background.
+- [x] Increase the number of cells without increasing the width or height of the `#canvas` element.
+- [x] Change the event listener so that instead of clicking to fill a color, you hold down your mouse.
+- [x] Create a button that, when clicked, resets all cells so that they all have a background of white.
+- [x] Create a button that, when clicked, changes all of the cells so that they match the `#current-color` element's background.
 
 Feel free to add other fun features to build out your pixel painter!
 
