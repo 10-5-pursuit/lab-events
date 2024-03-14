@@ -68,4 +68,4 @@ function drawCanvas(size) {
   }
 }
 
-drawCanvas(50);
+drawCanvas(currentSize);
