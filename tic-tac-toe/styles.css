@@ -34,6 +34,7 @@ h1 {
   justify-content: center;
   font-size: 2em;
   font-weight: bold;
+  color: white;
 }
 
 .square:hover {

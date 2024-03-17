@@ -14,6 +14,5 @@ block.forEach(elem => {
     });
 });
 
-const button = document.createElement('button').classList.add('.button');
-
-document.body.querySelector('#canvas-palette-wrapper').appendChild(button);
+const button = document.createElement('button').innerHTML = 'RESET';
+document.querySelector('#wrapper #canvas-palette-wrapper #palette').appendChild(button);
