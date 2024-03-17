@@ -14,7 +14,8 @@
             <h1>Pixel Painter</h1>
         </header>
         <div id="canvas-palette-wrapper"> <!-- Wrapper for canvas and palette -->
-            <main id="canvas"></main>
+            <main id="canvas">
+            </main>
             <section id="palette">
                 <div class="color" style="background: black"></div>
                 <div class="color" style="background: red"></div>
@@ -26,13 +27,28 @@
                 <div class="color" style="background: white"></div>
             </section>
         </div>
-        <section id="current-color"></section>
-    </div>
-    <footer>
-        <nav>
+        <section id="current-color-area">
+            <p>current color:</p>
+            <div class="button-area">
+                <button id="reset-button">reset</button>
+                <div class="current-color-cell"></div>
+                <button id="paint-all">paint all</button>
+            </div>   
+        </section>
+        <nav class="links">
             <a href="../index.html">Home</a>
             <a href="../tic-tac-toe/index.html">Tic Tac Toe</a>
+            <div class="size-Board-selector">
+                <label for="size">Board size:</label>
+                <select name="size" id="size">
+                    <option selected hidden></option>
+                    <option value="1">5 * 4</option>
+                    <option value="2"> 10 * 8</option>
+                    <option value="3"> 20 * 16</option>
+                </select>
+            </div>
         </nav>
-    </footer>
+    </div>
+    
 </body>
 </html>

@@ -9,18 +9,27 @@
     <script defer src="main.js"></script>
   </head>
   <body>
-    <h1>Tic Tac Toe</h1>
     <main id="wrapper">
-      <section>
-        <div class="tic-tac-toe"></div>
-        <button>Reset</button>
-      </section>
-    </main>
-    <footer>
-      <nav>
+      <h1>Tic Tac Toe</h1>
+      <nav class="links">
         <a href="../index.html">Home</a>
         <a href="../pixel-painter/index.html">Pixel Painter</a>
       </nav>
-    </footer>
+      <div class="tic-tac-toe"></div>
+
+      <div class="score">
+        <p>Current Player:</p>
+        <p id="current-player">X</p>
+        <p>Score:</p>
+        <p id="player-x">Player X: <span>0</span></p>
+        <p id="player-o">Player O: <span>0</span></p>
+      </div>
+      <div class="pop-message">
+        <p>O Player Wins!</p>
+      </div>
+
+      <button id="reset-button">Reset</button>
+    </main>
+      
   </body>
 </html>
