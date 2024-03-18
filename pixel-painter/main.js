@@ -24,5 +24,16 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 
+    // Button to reset all cells to white
+    const resetButton = document.createElement("button");
+    resetButton.textContent = "Reset Canvas";
+    document.body.appendChild(resetButton);
+
+    resetButton.addEventListener("click", function () {
+        const cells = document.querySelectorAll(".cell");
+        cells.forEach(cell => {
+            cell.style.background = "white";
+        });
+    });
 });
 
