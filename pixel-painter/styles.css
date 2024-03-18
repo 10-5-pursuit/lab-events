@@ -96,3 +96,18 @@ a:hover {
   background-color: blanchedalmond;
   opacity: 0.5;
 }
+label{
+  color: purple;
+  font-size: 30px;
+  font-weight: bold;
+  display: flex;
+  flex-direction:column-reverse ;
+  text-align: center;
+}
+#grid-options{
+  margin: 0 800px ;
+  width: 100px;
+  display: flex;
+  flex-direction: row-reverse;
+  
+}
