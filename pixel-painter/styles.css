@@ -29,10 +29,11 @@ header h1 {
 }
 
 #canvas {
-  border: 3px solid #393e41;
+  --size: 4;
+  border: 5px solid #393e41;
   display: grid;
-  grid-template-columns: repeat(10, 50px); 
-  height: 400px;
+  grid-template-columns: repeat(var(--size),1fr); 
+  grid-template-rows: repeat(var(--size),1fr); 
   margin-right: 20px; 
 }
 
@@ -96,3 +97,4 @@ a:hover {
   background-color: blanchedalmond;
   opacity: 0.5;
 }
+

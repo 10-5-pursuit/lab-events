@@ -73,3 +73,10 @@ a:hover {
   background-color: blanchedalmond;
   opacity: 0.5;
 }
+
+.message{
+  padding: 1em;
+  text-align: center;
+  font-size: 30px;
+  color:red;
+}
