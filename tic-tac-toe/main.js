@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     makeBoard();
+    document.querySelector('button').addEventListener('click', reset);
 });
 
 let currentPlayer = 'X';
@@ -20,4 +21,11 @@ function makeMove() {
         this.classList.remove('empty');
         currentPlayer = currentPlayer === 'X' ? 'O' : 'X';
     }
+}
+
+function reset() {
+    const board = document.querySelector('.tic-tac-toe');
+    board.innerHTML = ''; // clears the board
+    makeBoard(); // Re-initializes the board
+    currentPlayer = 'X'; // Reset to player X
 }
