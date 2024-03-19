@@ -36,6 +36,7 @@ h1 {
   font-weight: bold;
 }
 
+
 .square:hover {
   background: plum;
 }
@@ -73,3 +74,4 @@ a:hover {
   background-color: blanchedalmond;
   opacity: 0.5;
 }
+
